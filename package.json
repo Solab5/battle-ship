@@ -1,0 +1,15 @@
+{
+  "name": "battle-ship",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Twinomugisha Morris <morristwinomugisha2000@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
