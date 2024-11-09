@@ -1,0 +1,33 @@
+/* styles.css */
+#game-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board {
+    width: 300px; /* Set a width for the boards */
+    height: 300px; /* Set a height for the boards */
+    border: 1px solid black; /* Add a border for visibility */
+    display: grid; /* Use grid layout for the cells */
+    grid-template-columns: repeat(10, 1fr); /* 10 columns */
+}
+
+.cell {
+    width: 30px; /* Set width for each cell */
+    height: 30px; /* Set height for each cell */
+    border: 1px solid lightgray; /* Add a border for each cell */
+    box-sizing: border-box; /* Ensure padding and border are included in width/height */
+}
+
+.cell.hit {
+    background-color: red; /* Color for hit cells */
+}
+
+.cell.miss {
+    background-color: blue; /* Color for miss cells */
+}
+
+h2 {
+    text-align: center; /* Center the headings */
+    margin: 10px 0; /* Add some margin for spacing */
+}
